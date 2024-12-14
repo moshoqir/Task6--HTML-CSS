@@ -1,0 +1,44 @@
+body, html{
+    height: 100%;
+}
+
+.gridDiv{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+  grid-auto-rows: 50px 150px 150px;
+
+   grid-template-areas:                          
+    "hd hd hd"
+    "main main sd "
+    "ft ft ft"; 
+
+    column-gap: 10px;
+    row-gap: 5px;
+  
+   
+}
+
+.div1{
+    background-color: black;
+    grid-area: hd;
+
+    
+
+}
+
+.div2{
+    background-color: orange;
+    grid-area: main;
+}
+
+.div3{
+    background-color: green;
+    grid-area: sd;
+}
+
+
+.div4{
+    background-color: blue;
+    grid-area: ft;
+}

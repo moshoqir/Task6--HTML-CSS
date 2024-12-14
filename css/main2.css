@@ -1,0 +1,60 @@
+body, html {
+    height: 100% 
+   }
+
+.flexDiv{
+    display: flex ;
+    
+
+        border: 9px solid #DAA520;
+        flex-wrap: wrap
+        
+   }
+
+   .flexDiv div{
+    
+    width: calc(100% / 4);
+
+    padding: 20px;
+
+    color: white;
+
+    text-align: center;
+    font-size: 45px;
+    box-sizing: border-box;
+    
+
+    
+}
+
+
+.div1{
+    background-color: #1ABC9C;
+}
+.div2{
+    background-color: #3498DB;
+}
+.div3{
+    background-color: #9B59B6;
+}
+.div4{
+    background-color: #34495E;
+}
+.div5{
+    background-color: #F1C40F;
+}
+.div6{
+    background-color: #E67E22;
+}
+.div7{
+    background-color: #E74C3C;
+}
+.div8{
+    background-color: #BDC3C7;
+}
+.div9{
+    background-color: #2ECC71;
+}
+.div10{
+    background-color: #16A085;
+}

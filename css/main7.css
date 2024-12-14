@@ -1,0 +1,118 @@
+body,html{
+    background-color: #A8BF7E;
+    height: 100%;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0;
+}
+
+.gridDiv{
+    display: grid;
+    background-color: #A0D0EA;
+    margin: auto;
+    grid-template-columns: repeat(4, 100px);
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: repeat(5, 70px);
+    gap: 15px;
+    padding: 20px;
+
+    grid-template-areas:                          
+                                    /* الكود هون بعطي مساحات للgrid */
+"scrn scrn scrn scrn"
+"nr1 nr2 nr3 pls"
+"nr4 nr5 nr6 min" 
+"nr7 nr8 nr9 mul"
+"clr nr0  eql div"
+; 
+}
+
+.gridDiv div{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 3px 3px black;
+}
+
+.screen{
+    background-color: #F1FBEB;
+    column-count: 1;
+    grid-area: scrn;
+}
+
+.nr1{
+    background-color: #EFEFEF;
+    grid-area: nr1;
+}
+.nr2{
+    background-color: #EFEFEF;
+    grid-area: nr2;
+}
+.nr3{
+    background-color: #EFEFEF;
+    grid-area: nr3;
+}
+.nr4{
+    background-color: #EFEFEF;
+    grid-area: nr4;
+}
+.nr5{
+    background-color: #EFEFEF;
+    grid-area: nr5;
+}
+.nr6{
+    background-color: #EFEFEF;
+    grid-area: nr6;
+}
+.nr7{
+    background-color: #EFEFEF;
+    grid-area: nr7;
+}
+.nr8{
+    background-color: #EFEFEF;
+    grid-area: nr8;
+}
+.nr9{
+    background-color: #EFEFEF;
+    grid-area: nr9;
+}
+.nr0{
+    background-color: #EFEFEF;
+    grid-area: nr0;
+}
+
+.plus{
+    background-color: #EFFF93;
+
+    grid-area: pls;
+}
+
+.minus{
+    background-color: #EFFF93;
+
+    grid-area: min;
+}
+
+.multy{
+    background-color: #EFFF93;
+
+    grid-area: mul;
+}
+
+.division{
+    background-color: #EFFF93;
+
+    grid-area: div;
+}
+
+.equal{
+    background-color: #EFEFEF;
+    grid-area: eql;
+}
+.clear{
+    background-color: #FD9FA9;
+
+    grid-area: clr;
+}
+

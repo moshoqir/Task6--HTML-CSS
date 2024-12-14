@@ -1,0 +1,58 @@
+body, html {
+     height: 100% 
+    }
+
+.flexDiv{
+    display: flex ;
+        border: 9px solid #DAA520;
+        height: 95%;
+}
+
+.flexDiv div{
+    flex: 1;
+}
+
+.flexDiv p{
+    color: white;
+    text-align: center;
+
+    font-size: 40px;
+}
+
+.div1{
+    background-color: #008000;
+    
+}
+
+.div2{
+    background-color: #FFFF00;
+}
+
+.div3{
+background-color: #800080;
+}
+
+.div4{
+    background-color: #808080;
+}
+
+.div5{
+background-color: #0000FF;
+}
+
+.div6{
+background-color: #FFA500;
+}
+
+.div7{
+
+    background-color: #FFC0CB;
+}
+
+.div8{
+background-color: #FF0000;
+}
+
+.div9{
+background-color: #A52A2A;
+}

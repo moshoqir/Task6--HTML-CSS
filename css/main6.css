@@ -1,0 +1,15 @@
+.gridDiv {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* 3 equal columns */
+    grid-auto-rows: 200px; /* Sets consistent row height */
+    gap: 10px; /* Adds gaps between grid items */
+    padding: 10px; /* Adds padding around the grid */
+}
+
+.gridDiv img {
+    width: 100%; /* Ensures the images fill the grid cell horizontally */
+    height: 100%; /* Ensures the images fill the grid cell vertically */
+    object-fit: cover; /* Prevents distortion by cropping to fit the grid cell */
+    border-radius: 5px; /* Adds rounded corners to the images */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a shadow for a polished look */
+}
